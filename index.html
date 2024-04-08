@@ -1,0 +1,554 @@
+<!Doctype html>
+<html>
+<head>
+<title>Home Page</title>
+<style>
+header{
+width:100%;
+height:50px;
+float:left;
+box-sizing:border-box;
+padding:6px;
+}
+
+body{
+padding:0;
+margin:0;
+}
+
+#brand_name{
+padding:0;
+margin:0;
+font-family:Arial Rounded MT;
+float:left;
+margin-left:24px;
+}
+
+#tag_line{
+float:right;
+padding:0;
+margin:0;
+margin-top:10px;
+font-family:Lucida Calligraphy;
+font-weight:bold;
+font-size:25px;
+margin-right:24px;
+}
+
+nav{
+width:100%;
+height:106px;
+background-color:crimson;
+float:left;
+box-sizing:border-box;
+padding:30px;
+}
+
+#search{
+width:400px;
+height:40px;
+float:left;
+box-sizing:border-box;
+border:none;
+font-size:15px;
+padding:10px;
+}
+
+#search_btn{
+width:100px;
+height:40px;
+float:left;
+border:none;
+margin-left:4px;
+font-size:18px;
+background-color:blue;
+font-weight:bold;
+color:white;
+box-sizing:border-box;
+}
+
+#menu_table{
+width:600px;
+height:40px;
+float:right;
+box-sizing:border-box;
+}
+
+#menu_item{
+background-color:white;
+width:20%;
+text-align:center;
+font-family:Century Schoolbook;
+font-size:18px;
+}
+
+a{
+text-decoration:none;
+color:black;
+font-family:century-gothic;
+}
+
+section{
+width:100%;
+height:1630px;
+float:left;
+box-sizing:border-box;
+border-width:1px;
+border-style:solid;
+border-color:crimson;
+padding:30px;
+}
+
+#venue{
+float:left;
+font-size:20px;
+font-family:Century Schoolbook;
+}
+
+#phone{
+float:right;
+font-size:20px;
+font-family:Century Schoolbook;
+}
+
+#popular-sweets-box{
+width:720px;
+height:580px;
+float:left;
+box-sizing:border-box;
+background-color:purple;
+margin-top:30px;
+padding:38px;
+}
+
+#Popular-Sweets-title{
+color:white;
+text-align:center;
+font-size:30px;
+font-family:sans-serif;
+margin:0;
+padding:15px;
+}
+
+#popular-sweet_img{
+width:300px;
+height:200px;
+margin:10px;
+border-width:5px;
+border-style:solid;
+border-color:black;
+box-sizing:border-box;
+}
+
+#rate_list_box{
+width:450px;
+height:580px;
+float:right;
+box-sizing:border-box;
+margin-top:30px;
+}
+
+#rate_header{
+height:50px;
+background-color:black;
+color:white;
+text-align:center;
+font-family:Lucida Bright;
+font-size:25px;
+}
+
+#rate_content{
+background-color:DeepPink;
+}
+
+#s_name{
+color:white;
+font-family:sans-serif;
+font-size:22px;
+padding:10px;
+border-bottom-width:2px;
+border-bottom-style:solid;
+border-bottom-color:white;
+}
+
+#rate{
+list-style:none;
+}
+
+fieldset{
+width:690px;
+height:550px;
+float:left;
+margin-top:30px;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+padding:10px;
+}
+
+legend{           
+font-family:century-gothic;
+font-size:30px;
+font-weight:bold;
+}
+
+#order_online{
+font-size:17px;
+font-family:Cambria Math;
+}
+
+#order_input{
+width:100%;
+height:35px;
+box-sizing:border-box;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+margin-top:5px;
+}
+
+textarea{
+width:100%;
+height:100px;
+box-sizing:border-box;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+}
+
+#submit_btn{
+padding:10px;
+font-size:15px;
+font-family:sans-serif;
+float:right;
+background-color:blue;
+border:none;
+color:white;
+}
+
+#about_us{
+width:450px;
+height:550px;
+float:right;
+box-sizing:border-box;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+margin-top:40px;
+padding:10px;
+}
+
+#about-title{
+font-family:Cambria Math;
+font-size:30px;
+}
+
+#about_text{
+text-align:justify;
+font-family:Cambria;
+line-height:25px;
+}
+
+#m_sweets{
+float:left;
+width:100%;
+box-sizing:border-box;
+}
+
+#more_sweets{
+font-family:Century;
+font-size:30px;
+}
+
+#sweets{
+width:215px;
+height:235px;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+float:left;
+box-sizing:border-box;
+margin-right:52px;
+}
+
+#sweets_end{
+width:215px;
+height:235px;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+float:left;
+box-sizing:border-box;
+}
+
+#sweet_pic{
+width:180px;
+height:150px;
+box-sizing:border-box;
+margin:19px;
+}
+
+#submit_btn1{
+font-size:20px;
+font-family:Calibri;
+background-color:blue;
+border-width:1px;
+border-style:solid;
+border-color:black;
+color:black;
+}
+
+footer{
+width:100%;
+height:250px;
+box-sizing:border-box;
+float:left;
+background-color:black;
+}
+
+#Contact_us{
+width:400px;
+height:250px;
+box-sizing:border-box;
+float:left;
+padding:10px;
+padding-left:30px;
+}
+
+#social_link{
+width:300px;
+height:250px;
+box-sizing:border-box;
+float:right;
+}
+
+#Contact_title{
+color:white;
+font-family:Calibri;
+font-weight:normal;
+}
+
+#contact_details{
+color:white;
+font-size:20px;
+font-family:Calibri;
+font-style:normal;
+font-weight:normal;
+margin-bottom:10px;
+}
+
+#social_logo{
+width:40px;
+height:40px;
+}
+
+#developer{
+color:white;
+float:left;
+font-size:20px;
+font-family:Calibri;
+margin-top:220px;
+margin-left:200px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<a href="#"><h1 id="brand_name">SWEETSHOP.COM</h1></a>
+<p id="tag_line">The World's Largest Sweets & Bakeries Shop</p>
+</header>
+
+<nav>
+<form>
+<input type="search" name="aishu" placeholder="Search Your Sweets" id="search"/>
+<input type="submit" id="search_btn" value="Search">
+</form>
+
+<table id="menu_table">
+<tr>
+<td id="menu_item"><a href="index.html"><b>Home</b></a></td>
+<td id="menu_item"><a href="sweets.html"><b>Sweets</b></a></td>
+<td id="menu_item"><a href="bakeries.html"><b>Bakeries</b></a></td>
+<td id="menu_item"><a href="#about_us"><b>About us</b></a></td>
+<td id="menu_item"><a href="#Contact_us"><b>Contact us</b></a></td>
+</tr>
+</table>
+
+</nav>
+
+<section>
+<address id="venue">
+Venue : Patil Mala Shahapur,Ichalkarnji-416115.
+</address>
+
+<address id="phone">
+Order Online : +91 9422965037.
+</address>
+
+<div id="popular-sweets-box">
+<h1 id="Popular-Sweets-title"><b>OUR POPULAR SWEETS<b></h1>
+<img src="C:\Users\hp\Desktop\Sweetshop.com\images\7.jpg" alt="7" id="popular-sweet_img">
+<img src="C:\Users\hp\Desktop\Sweetshop.com\images\6.jpg" alt="6" id="popular-sweet_img">
+<img src="C:\Users\hp\Desktop\Sweetshop.com\images\9.jpg" alt="5" id="popular-sweet_img">
+<img src="C:\Users\hp\Desktop\Sweetshop.com\images\8.jpg" alt="8" id="popular-sweet_img">
+</div>
+
+<table id="rate_list_box">
+<tr>
+<td id="rate_header">Sweet Name</td>
+<td id="rate_header">Sweet Price</td>
+</tr>
+
+<tr>
+<td id="rate_content">
+
+<ol>
+<li id="s_name">Rasgulla</li>
+<li id="s_name">Rabadi</li>
+<li id="s_name">Anarsa</li>
+<li id="s_name">Rasmalai</li>
+<li id="s_name">Jalebi</li>
+<li id="s_name">Gulab Jamun</li>
+<li id="s_name">Kaju Katli</li>
+<li id="s_name">Shrikhand</li>
+<li id="s_name">Moong Dal Halwa</li>
+<li id="s_name">Amrakhand</li>
+</ol>
+</td>
+
+<td id="rate_content">
+
+<ol id="rate">
+<li id="s_name">200/ kg</li>
+<li id="s_name">452/ kg</li>
+<li id="s_name">400/ kg</li>
+<li id="s_name">850/ kg</li>
+<li id="s_name">382/ kg</li>
+<li id="s_name">980/ kg</li>
+<li id="s_name">600/ kg</li>
+<li id="s_name">400/ kg</li>
+<li id="s_name">750/ kg</li>
+<li id="s_name">856/ kg</li>
+</ol>
+</td>
+</tr>
+</table>
+
+<fieldset id="frm_box">
+<legend>Order Online</legend>
+
+<form id="order_online">
+Buyer Name<br>
+<input type="text" name="name" id="order_input">
+<br><br>
+Mobile No<br>
+<input type="number" name="Mobile" id="order_input">
+<br><br>
+Choose Sweets<br>
+<select name="choose_sweets" id="order_input">
+<option value="Rasgulla">Rasgulla</option>
+<option value="Rasmalai">Rasmalai</option>
+<option value="Gulab Jamun">Gulab Jamun</option>
+<option value="Besan Laddo">Besan Laddo</option>
+<option value="Basundi">Basundi</option>
+<option value="Rava Laddo">Rava Laddo</option>
+<option value="Jalebi">Jalebi</option>
+</select>
+
+<br><br>
+Quantity<br>
+<input type="text" name="Quantity" id="order_input">
+<br><br>
+
+Address<br>
+
+<textarea name="address"></textarea>
+<br><br>
+
+<input type="submit" value="Order Now.." id="submit_btn">
+</form>
+</fieldset>
+
+<div id="about_us">
+<h1 align="center" id="about-title">About Us</h1>
+<hr>
+<p id="about_text">
+Sweets provides a powerful way to help you prove your point. When you click Online Video, you can paste
+in the embed code for the video you want to add. You can also type a keyword to search online for the
+video that best fits your document.To make your document look professionally produced, Word provides 
+header, footer, cover page, and text box designs that complement each other. For example, you can add 
+a matching cover page, header, and sidebar. Click Insert and then choose the elements you want from the
+different galleries.Themes and styles also help keep your document coordinated. When you click Design 
+and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. 
+When you apply styles, your headings change to match the new theme.Save time in Word with new buttons
+that show up where you need them.
+</p>
+</div>
+
+<div id="m_sweets">
+<h1 align="center" id="more_sweets">More Sweets</h1>
+</div>
+
+<div id="sweets">
+<img src="C:\Users\hp\Desktop\Sweetshop.com\images\1.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="submit_btn1">Buy Now</button></a>
+<center>
+</div>
+
+<div id="sweets">
+<img src="C:\Users\hp\Desktop\Sweetshop.com\images\2.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="submit_btn1">Buy Now</button></a>
+<center>
+</div>
+
+<div id="sweets">
+<img src="C:\Users\hp\Desktop\Sweetshop.com\images\3.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="submit_btn1">Buy Now</button></a>
+<center>
+</div>
+
+<div id="sweets">
+<img src="C:\Users\hp\Desktop\Sweetshop.com\images\4.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="submit_btn1">Buy Now</button></a>
+<center>
+</div>
+
+<div id="sweets_end">
+<img src="C:\Users\hp\Desktop\Sweetshop.com\images\9.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="submit_btn1">Buy Now</button></a>
+<center>
+</div>
+
+</section>
+<br><br><br><br>
+
+<footer>
+<div id="Contact_us">
+<h1 id="Contact_title">Contact Us</h1>
+<address id="contact_details">Website : Sweetshop.com</address>
+<address id="contact_details">Phone No. : +91 9422965037</address>
+<address id="contact_details">Address : Patil Mala,Shahapur Ichalkarnji-416115.</address>
+<address id="contact_details">Email : Sweetshop@gmail.com</address>
+</div>
+
+<div id="developer">Developed By : Aishwarya Jadhav</div>
+
+<div id="social_link">
+<h1 id="Contact_title">Follow Us</h1>
+<pre><a href="#"><img src="C:\Users\hp\Desktop\Sweetshop.com\social media\fb.png" id="social_logo"></a>   <a href="#"><img src="C:\Users\hp\Desktop\Sweetshop.com\social media\in.png" id="social_logo"></a>   <a href="#"><img src="C:\Users\hp\Desktop\Sweetshop.com\social media\tw.png" id="social_logo"></a>
+</pre>
+</div>
+
+
+
+</footer>
+
+
+</body>
+</html>
